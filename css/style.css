@@ -1,18 +1,103 @@
-/* Error: expected "{".
- *    ,
- * 87 | @media screen (min-width: 75rem) {
- *    |               ^
- *    '
- *   scss\components\_index.scss 87:15  @use
- *   scss\main.scss 2:1                 root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 87 \2502  @media screen (min-width: 75rem) {\d\a    \2502                ^\a    \2575 \a   scss\\components\\_index.scss 87:15  @use\a   scss\\main.scss 2:1                 root stylesheet';
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(36, 100%, 99%);
+}
+
+img:not([src$=".svg"]) {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  overflow: hidden;
+  padding: 0 3rem;
+}
+
+button {
+  display: block;
+  text-align: center;
+  background-color: hsl(5, 85%, 63%);
+  padding-inline: 1.8rem;
+  padding-block: 1.5rem;
+  color: white;
+  border: none;
+  font-weight: 300;
+  margin-block: 1.4rem;
+}
+button h3 {
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+
+nav {
+  margin-inline: 3.1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+
+.info {
+  padding: 3.4rem;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+.info-heading {
+  color: hsla(35, 77%, 62%, 0.8);
+  margin-bottom: 2rem;
+}
+.info-card:not(:last-child) {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid;
+}
+.info-paragraph {
+  margin-block: 0.8rem 1.7rem;
+  color: hsla(36, 100%, 99%, 0.8);
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.4rem;
+  margin-bottom: 4rem;
+}
+.article-detail {
+  color: black;
+}
+.article-number {
+  font-size: 3.4rem;
+}
+.article img {
+  aspect-ratio: 4/5;
+}
+.article .aside {
+  color: hsla(0, 0%, 35%, 0.959);
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.article-container {
+  margin-block-start: 2.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

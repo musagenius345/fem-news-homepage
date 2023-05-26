@@ -68,7 +68,9 @@ nav{
     &-number{
         font-size: 3.4rem;
     }
-
+    img{
+        aspect-ratio: 4 / 5;
+    }
     .aside{
         color: hsla(0, 0%, 35%, 0.959);
         display: flex;
@@ -84,7 +86,7 @@ nav{
 
 
 
-@media screen (min-width: 75rem) {
-    .container
+// @media screen (min-width: 75rem) {
+//     .container
     
-}
+// }
