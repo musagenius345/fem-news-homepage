@@ -1,3 +1,6 @@
+@forward 'nav';
+
+
 button{
     display: block;
     text-align: center;
@@ -80,6 +83,18 @@ nav{
     &-container{
         margin-block-start: 2.2rem;
     }
+}
+
+
+.menu_button{
+  cursor: pointer;
+  position: fixed;
+  z-index: 5;
+}
+
+
+.open {
+   visibility: visible;  
 }
 
 

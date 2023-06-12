@@ -22,6 +22,7 @@ body{
     font-size: 1.6rem;
     font-family: 'Inter', sans-serif;
     background-color: hsl(36, 100%, 99%);
+    max-width: 100%;
 }
 
 
@@ -36,3 +37,12 @@ img:not([src$=".svg"]){
     overflow: hidden;
     padding: 0 3rem;
 }
+
+
+.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
