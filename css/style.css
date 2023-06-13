@@ -77,8 +77,8 @@ nav {
 
 .article {
   display: flex;
-  justify-content: space-between;
-  gap: 3.4rem;
+  justify-content: space-around;
+  gap: 1rem;
   margin-bottom: 4rem;
 }
 .article-detail {
@@ -92,9 +92,9 @@ nav {
 }
 .article .aside {
   color: hsla(0, 0%, 35%, 0.959);
-  display: flex;
+ /* display: flex;
   flex-direction: column;
-  justify-content: baseline;
+   justify-content: baseline; */
 }
 .article-container {
   margin-block-start: 2.2rem;

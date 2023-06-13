@@ -59,3 +59,43 @@
 
 
 }
+
+
+
+nav{
+    margin-inline: 3.1rem;
+}
+
+.nav{
+
+
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        margin-block: 1rem;
+    }
+}
+
+
+
+.menu_button {
+  cursor: pointer;
+  position: relative;
+  right: 1%;
+  /* top: 8%; */
+  z-index: 5;
+
+
+  &.hide {
+    visibility: hidden;
+  }
+}
+
+
+.open {
+  visibility: visible;
+}
+
+
+
+

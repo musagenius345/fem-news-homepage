@@ -1,101 +1,17 @@
 @forward 'nav';
+@forward 'article';
+@forward 'info';
+@forward 'button';
 
 
-button{
-    display: block;
-    text-align: center;
-    background-color: hsl(5, 85%, 63%);
-    padding-inline: 1.8rem;
-    padding-block: 1.5rem;
-    color: white;
-    border: none;
-    font-weight: 300;
-
-    margin-block: 1.4rem;
-
-    h3{
-        font-weight: 700;
-        letter-spacing: .6rem;
-    }
-}
 
 
-nav{
-    margin-inline: 3.1rem;
-}
-
-.nav{
 
 
-    &-container{
-        display: flex;
-        justify-content: space-between;
-        margin-block: 1rem;
-    }
-}
 
 
-.info{
-    padding: 3.4rem;
-    background-color: hsl(240, 100%, 5%);
-    color: hsl(36, 100%, 99%);
-
-    &-heading{
-        color: hsla(35, 77%, 62%, .8);
-        margin-bottom: 2rem;
-    }
-
-    &-card:not(:last-child){
-        margin-bottom: 2rem;
-        border-bottom: 2px solid ;
-    }
-
-    &-paragraph{
-        margin-block: .8rem 1.7rem;
-        color: hsla(36, 100%, 99%, .8);
-    }
-}
 
 
-.article{
-    display: flex;
-    justify-content: space-between;
-    // align-items: center;
-    gap: 3.4rem;
-    margin-bottom: 4rem;
-
-    &-detail{
-        color: black;
-    }
-
-    &-number{
-        font-size: 3.4rem;
-    }
-    img{
-        aspect-ratio: 4 / 5;
-    }
-    .aside{
-        color: hsla(0, 0%, 35%, 0.959);
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-    }
-    &-container{
-        margin-block-start: 2.2rem;
-    }
-}
-
-
-.menu_button{
-  cursor: pointer;
-  position: fixed;
-  z-index: 5;
-}
-
-
-.open {
-   visibility: visible;  
-}
 
 
 

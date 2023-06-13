@@ -1,0 +1,21 @@
+.info{
+    padding: 3.4rem;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+
+    &-heading{
+        color: hsla(35, 77%, 62%, .8);
+        margin-bottom: 2rem;
+    }
+
+    &-card:not(:last-child){
+        margin-bottom: 2rem;
+        border-bottom: 2px solid ;
+    }
+
+    &-paragraph{
+        margin-block: .8rem 1.7rem;
+        color: hsla(36, 100%, 99%, .8);
+    }
+}
+
